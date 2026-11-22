@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="100%" role="img" aria-labelledby="sk-title sk-desc">
+  <title id="sk-title">Technical Stack, Academic Standing &amp; Competitive Achievements — Atharv Soni</title>
+  <desc id="sk-desc">Emission-spectrum visualization of Atharv Soni's technical stack, B.Tech AI &amp; ML 9.6/10 CGPA at Newton School of Technology, and World Finalist honors.</desc>
+
+  <defs>
+    <linearGradient id="sk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A0F"/>
+      <stop offset="100%" stop-color="#0B111A"/>
+    </linearGradient>
+
+    <linearGradient id="bar-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <linearGradient id="bar-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <linearGradient id="bar-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="bar-rose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+    .bar-grow {
+      transform-origin: left center;
+      animation: growX 1.1s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+    }
+    @keyframes growX {
+      from { transform: scaleX(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+  </style>
+
+  <!-- Outer Card -->
+  <rect width="1200" height="260" rx="12" fill="url(#sk-bg)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Left Half: Technical Capabilities Spectrum -->
+  <g transform="translate(28, 26)">
+    <text x="0" y="14" class="mono" font-size="11.5" fill="#F59E0B" font-weight="600" letter-spacing="2">
+      TECHNICAL SPECTRUM // STACK &amp; VERIFICATION
+    </text>
+
+    <!-- Row 1: Languages -->
+    <text x="0" y="48" class="mono" font-size="10.5" fill="#94A3B8">LANGUAGES</text>
+    <text x="145" y="48" class="mono" font-size="11" fill="#F8FAFC" font-weight="600">TypeScript · JavaScript · Python · Java · SQL · HTML/CSS</text>
+    <rect x="145" y="56" width="540" height="6" rx="3" fill="#1E293B"/>
+    <rect class="bar-grow" x="145" y="56" width="515" height="6" rx="3" fill="url(#bar-gold)"/>
+
+    <!-- Row 2: Backend & Edge -->
+    <text x="0" y="92" class="mono" font-size="10.5" fill="#94A3B8">BACKEND &amp; EDGE</text>
+    <text x="145" y="92" class="mono" font-size="11" fill="#F8FAFC" font-weight="600">Hono · Cloudflare Workers &amp; D1 · Node.js · Express · Prisma</text>
+    <rect x="145" y="100" width="540" height="6" rx="3" fill="#1E293B"/>
+    <rect class="bar-grow" x="145" y="100" width="505" height="6" rx="3" fill="url(#bar-emerald)" style="animation-delay:0.15s"/>
+
+    <!-- Row 3: Data & Storage -->
+    <text x="0" y="136" class="mono" font-size="10.5" fill="#94A3B8">DATA &amp; FRONTEND</text>
+    <text x="145" y="136" class="mono" font-size="11" fill="#F8FAFC" font-weight="600">PostgreSQL · MySQL · MongoDB · React · Next.js · Tailwind · Vite</text>
+    <rect x="145" y="144" width="540" height="6" rx="3" fill="#1E293B"/>
+    <rect class="bar-grow" x="145" y="144" width="490" height="6" rx="3" fill="url(#bar-cyan)" style="animation-delay:0.3s"/>
+
+    <!-- Row 4: Testing & Security -->
+    <text x="0" y="180" class="mono" font-size="10.5" fill="#94A3B8">TESTING &amp; AUTH</text>
+    <text x="145" y="180" class="mono" font-size="11" fill="#F8FAFC" font-weight="600">Vitest · fast-check (Property Testing) · PBKDF2-SHA256 · Wrangler</text>
+    <rect x="145" y="188" width="540" height="6" rx="3" fill="#1E293B"/>
+    <rect class="bar-grow" x="145" y="188" width="525" height="6" rx="3" fill="url(#bar-rose)" style="animation-delay:0.45s"/>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="745" y1="24" x2="745" y2="236" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Right Half: Education & Competitive Honors -->
+  <g transform="translate(772, 26)">
+    <text x="0" y="14" class="mono" font-size="11.5" fill="#34D399" font-weight="600" letter-spacing="2">
+      ACADEMIC &amp; COMPETITIVE LEDGER
+    </text>
+
+    <!-- Education Card -->
+    <rect x="0" y="28" width="398" height="86" rx="7" fill="#090D14" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="16" y="49" class="sans" font-size="13.5" fill="#F8FAFC" font-weight="700">
+      Newton School of Technology (ADYPU), Pune
+    </text>
+    <text x="16" y="68" class="mono" font-size="11" fill="#FBBF24" font-weight="600">
+      B.Tech in AI &amp; Machine Learning (2024 – 2028)
+    </text>
+    <text x="16" y="88" class="mono" font-size="10.5" fill="#94A3B8">
+      CGPA: <tspan fill="#34D399" font-weight="700">9.6 / 10.0</tspan> · Class XII: 91.0% · Class X: 93.44%
+    </text>
+    <text x="16" y="104" class="mono" font-size="9.5" fill="#64748B">
+      Core: DSA · DBMS · Operating Systems · Computer Networks
+    </text>
+
+    <!-- Achievements Card -->
+    <rect x="0" y="126" width="398" height="84" rx="7" fill="#090D14" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="16" y="147" class="mono" font-size="10.5" fill="#38BDF8" font-weight="600">
+      ★ WORLD FINALIST — WILD BUGS HACKATHON
+    </text>
+    <text x="16" y="169" class="mono" font-size="10.5" fill="#FBBF24" font-weight="600">
+      ★ TOP 10 OF 500+ TEAMS — SUVIDHA NATIONAL HACKATHON
+    </text>
+    <text x="16" y="191" class="mono" font-size="10.5" fill="#34D399" font-weight="600">
+      ★ OPEN-SOURCE CONTRIBUTOR — HACKTOBERFEST
+    </text>
+  </g>
+</svg>

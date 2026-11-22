@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%" role="img" aria-labelledby="exp-title exp-desc">
+  <title id="exp-title">Engineering Experience &amp; Production Deployments — Atharv Soni</title>
+  <desc id="exp-desc">Timeline of Atharv Soni's roles at AiiQA Innovation (AI/ML Intern), YellowSense Technologies (AI/ML Intern building RBI deepfake detection and INDIAai OCR pipelines), and Thoughtiv (Full Stack Developer Intern).</desc>
+
+  <defs>
+    <linearGradient id="exp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A0F"/>
+      <stop offset="100%" stop-color="#0B111A"/>
+    </linearGradient>
+
+    <pattern id="exp-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+    .active-beacon {
+      animation: beaconPulse 2.2s ease-in-out infinite;
+    }
+    @keyframes beaconPulse {
+      0%, 100% { opacity: 1; r: 4.5px; }
+      50% { opacity: 0.3; r: 6px; }
+    }
+
+    .track-pulse {
+      stroke-dasharray: 8 10;
+      animation: trackMove 2s linear infinite;
+    }
+    @keyframes trackMove {
+      to { stroke-dashoffset: -36; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="1200" height="320" rx="12" fill="url(#exp-bg)" stroke="#1E293B" stroke-width="2"/>
+  <rect width="1200" height="320" rx="12" fill="url(#exp-grid)"/>
+
+  <!-- Header Bar -->
+  <rect x="1" y="1" width="1198" height="40" rx="11" fill="#0B0F17"/>
+  <line x1="0" y1="41" x2="1200" y2="41" stroke="#1E293B" stroke-width="1"/>
+  <text x="28" y="25" class="mono" font-size="11.5" fill="#F59E0B" font-weight="600" letter-spacing="2">
+    PRODUCTION EXPERIENCE // INDUSTRY DEPLOYMENTS &amp; APPLIED AI/ML
+  </text>
+  <text x="1172" y="25" text-anchor="end" class="mono" font-size="10.5" fill="#34D399" letter-spacing="1">
+    3 ROLES · REMOTE &amp; ENTERPRISE DELIVERABLES
+  </text>
+
+  <!-- Horizontal Connecting Timeline Spine -->
+  <line x1="180" y1="70" x2="1020" y2="70" stroke="#1E293B" stroke-width="2"/>
+  <line class="track-pulse" x1="180" y1="70" x2="1020" y2="70" stroke="#F59E0B" stroke-width="2"/>
+
+  <!-- ==================================================================== -->
+  <!-- ROLE 1: AiiQA Innovation (Aug 2026 – Present)                        -->
+  <!-- ==================================================================== -->
+  <circle cx="205" cy="70" r="8" fill="#0B111A" stroke="#34D399" stroke-width="2"/>
+  <circle class="active-beacon" cx="205" cy="70" r="4.5" fill="#34D399"/>
+
+  <g transform="translate(24, 92)">
+    <rect width="364" height="204" rx="8" fill="#090D14" stroke="#34D399" stroke-width="1.2" stroke-opacity="0.65"/>
+    <rect x="16" y="14" width="152" height="20" rx="4" fill="#082018" stroke="#10B981" stroke-width="0.8"/>
+    <text x="92" y="27.5" text-anchor="middle" class="mono" font-size="9.5" fill="#34D399" font-weight="600">
+      AUG 2026 – PRESENT
+    </text>
+    <text x="348" y="27.5" text-anchor="end" class="mono" font-size="9.5" fill="#64748B">REMOTE</text>
+
+    <text x="16" y="58" class="sans" font-size="16" fill="#F8FAFC" font-weight="700">
+      AiiQA Innovation
+    </text>
+    <text x="16" y="77" class="mono" font-size="11" fill="#FBBF24" font-weight="500">
+      AI/ML Intern · Full-Stack MVPs &amp; Data Pipelines
+    </text>
+
+    <line x1="16" y1="90" x2="348" y2="90" stroke="#1E293B"/>
+
+    <text x="16" y="112" class="sans" font-size="12" fill="#CBD5E1">
+      • Designed &amp; shipped full-stack MVPs for early-stage
+    </text>
+    <text x="26" y="128" class="sans" font-size="12" fill="#94A3B8">
+      teams from schema and API design to deployment.
+    </text>
+    <text x="16" y="150" class="sans" font-size="12" fill="#CBD5E1">
+      • Wrote resilient crawling pipelines with anti-bot
+    </text>
+    <text x="26" y="166" class="sans" font-size="12" fill="#94A3B8">
+      handling to curate domain-specific EdTech datasets.
+    </text>
+    <text x="16" y="188" class="mono" font-size="10" fill="#34D399">
+      ✓ Typed interfaces · Reviewed PRs · Continuous Deploy
+    </text>
+  </g>
+
+  <!-- ==================================================================== -->
+  <!-- ROLE 2: YellowSense Technologies (Jan 2026 – Present)                -->
+  <!-- ==================================================================== -->
+  <circle cx="600" cy="70" r="8" fill="#0B111A" stroke="#F59E0B" stroke-width="2"/>
+  <circle class="active-beacon" cx="600" cy="70" r="4.5" fill="#F59E0B"/>
+
+  <g transform="translate(418, 92)">
+    <rect width="364" height="204" rx="8" fill="#090D14" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.7"/>
+    <rect x="16" y="14" width="152" height="20" rx="4" fill="#1F1608" stroke="#F59E0B" stroke-width="0.8"/>
+    <text x="92" y="27.5" text-anchor="middle" class="mono" font-size="9.5" fill="#FBBF24" font-weight="600">
+      JAN 2026 – PRESENT
+    </text>
+    <text x="348" y="27.5" text-anchor="end" class="mono" font-size="9.5" fill="#64748B">REMOTE</text>
+
+    <text x="16" y="58" class="sans" font-size="16" fill="#F8FAFC" font-weight="700">
+      YellowSense Technologies
+    </text>
+    <text x="16" y="77" class="mono" font-size="11" fill="#38BDF8" font-weight="500">
+      AI/ML Intern · National Fraud, OCR &amp; CV Systems
+    </text>
+
+    <line x1="16" y1="90" x2="348" y2="90" stroke="#1E293B"/>
+
+    <text x="16" y="112" class="sans" font-size="12" fill="#CBD5E1">
+      • Built <tspan fill="#FBBF24" font-weight="600">deepfake detection models for the RBI</tspan>
+    </text>
+    <text x="26" y="128" class="sans" font-size="12" fill="#94A3B8">
+      (Reserve Bank of India) analysing audio-visual fraud.
+    </text>
+    <text x="16" y="150" class="sans" font-size="12" fill="#CBD5E1">
+      • Built <tspan fill="#38BDF8" font-weight="600">INDIAai OCR pipelines</tspan> for steel authorities &amp;
+    </text>
+    <text x="26" y="166" class="sans" font-size="12" fill="#94A3B8">
+      CV vessel tracking / biometrics for port authorities.
+    </text>
+    <text x="16" y="188" class="mono" font-size="10" fill="#FBBF24">
+      ✓ Reserve Bank of India · INDIAai · Port Authorities
+    </text>
+  </g>
+
+  <!-- ==================================================================== -->
+  <!-- ROLE 3: Thoughtiv (Jun 2025 – Sep 2025)                              -->
+  <!-- ==================================================================== -->
+  <circle cx="995" cy="70" r="8" fill="#0B111A" stroke="#38BDF8" stroke-width="2"/>
+  <circle cx="995" cy="70" r="4" fill="#38BDF8"/>
+
+  <g transform="translate(812, 92)">
+    <rect width="364" height="204" rx="8" fill="#090D14" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.6"/>
+    <rect x="16" y="14" width="152" height="20" rx="4" fill="#0C1928" stroke="#38BDF8" stroke-width="0.8"/>
+    <text x="92" y="27.5" text-anchor="middle" class="mono" font-size="9.5" fill="#38BDF8" font-weight="600">
+      JUN 2025 – SEP 2025
+    </text>
+    <text x="348" y="27.5" text-anchor="end" class="mono" font-size="9.5" fill="#64748B">REMOTE</text>
+
+    <text x="16" y="58" class="sans" font-size="16" fill="#F8FAFC" font-weight="700">
+      Thoughtiv
+    </text>
+    <text x="16" y="77" class="mono" font-size="11" fill="#34D399" font-weight="500">
+      Full Stack Developer Intern · React, Node &amp; Databases
+    </text>
+
+    <line x1="16" y1="90" x2="348" y2="90" stroke="#1E293B"/>
+
+    <text x="16" y="112" class="sans" font-size="12" fill="#CBD5E1">
+      • Built and maintained full-stack React &amp; Node.js
+    </text>
+    <text x="26" y="128" class="sans" font-size="12" fill="#94A3B8">
+      features backed by MySQL and MongoDB schemas.
+    </text>
+    <text x="16" y="150" class="sans" font-size="12" fill="#CBD5E1">
+      • Debugged and profiled existing REST API endpoints
+    </text>
+    <text x="26" y="166" class="sans" font-size="12" fill="#94A3B8">
+      with senior engineers across code reviews &amp; sprints.
+    </text>
+    <text x="16" y="188" class="mono" font-size="10" fill="#38BDF8">
+      ✓ React · Node.js · MySQL · MongoDB · API Profiling
+    </text>
+  </g>
+</svg>
